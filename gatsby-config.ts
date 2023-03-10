@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteTitle: `Gustavo's Blog`,
+    siteTitleAlt: `Gustavo's Blog`,
+    siteHeadline: `Gustavo's Blog`,
+    siteUrl: `https://gustavex.github.io/`,
+    siteDescription: `Minimal Blog`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `@elkesha`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -29,18 +29,26 @@ const config: GatsbyConfig = {
             slug: `/blog`,
           },
           {
+            title: `Projects`,
+            slug: `/projects`,
+          },
+          {
             title: `About`,
             slug: `/about`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `GitHub`,
+            url: `https://github.com/gustavex`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Twitter`,
+            url: `https://twitter.com/gus_vasquez_`,
+          },
+          {
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/gustavo-vasquez-lozada/`,
           },
         ],
       },
